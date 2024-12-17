@@ -16,9 +16,11 @@ Keeping the system's `PopScope` widget, is simpler and more efficient.
 
 ## Features
 
-✅ You can use `PopScope`;
+✅ You can use `PopScope` widget;
+
 ✅ Support for multiple platforms;
-✅ Takes effect only when a pop is triggered, otherwise it is cancelled;
+
+✅ It is the same as the default sideslip back. Takes effect only when a pop is triggered, otherwise it is cancelled;
 
 
 ## Usage
