@@ -11,12 +11,14 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/to/develop-packages).
 -->
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+Keeping the system's `PopScope` widget, is simpler and more efficient.
+
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+✅ You can use `PopScope`;
+✅ Support for multiple platforms;
+✅ Takes effect only when a pop is triggered, otherwise it is cancelled;
 
 
 ## Usage
