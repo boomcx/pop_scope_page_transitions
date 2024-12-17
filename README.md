@@ -18,22 +18,51 @@ know whether this package might be useful for them.
 
 TODO: List what your package can do. Maybe include images, gifs, or videos.
 
-## Getting started
-
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
+To use this package, add `pop_scope_page_transitions` as a dependency in your pubspec.yaml file.
 
-```dart
-const like = 'sample';
+[example](https://github.com/boomcx/will_pop_demo.git).
+
+
+## Example
+
+### Import the library 
+```
+import 'package:pop_scope_page_transitions/pop_scope_page_transitions.dart';
 ```
 
-## Additional information
+### Configure page transitions 
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+```dart
+
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Flutter Demo',
+      theme: ThemeData(
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        useMaterial3: true,
+        pageTransitionsTheme: const PageTransitionsTheme(
+          builders: {
+            // TargetPlatform.android: PopScopePageTransitionsBuilder(),
+            TargetPlatform.iOS: PopScopePageTransitionsBuilder(),
+          },
+        ),
+      ),
+      routes: {
+        '/': (context) => const HomePage(),
+        '/second': (context) => const SecondPage(),
+      },
+    );
+  }
+}
+
+```
+
+And then, you can add `PopScope` widget in your view.
+ 
