@@ -14,6 +14,10 @@ and the Flutter guide for
 Keeping the system's `PopScope` widget, is simpler and more efficient.
 
 
+<p align=center><img src="https://github.com/boomcx/will_pop_demo/blob/main/demo.gif?raw=true" alt="demo.gif"  /></p>
+
+
+
 ## Features
 
 ✅ You can use `PopScope` widget;
