@@ -14,10 +14,6 @@ and the Flutter guide for
 Keeping the system's `PopScope` widget, is simpler and more efficient.
 
 
-<p align=center><img src="https://github.com/boomcx/will_pop_demo/blob/main/demo.gif?raw=true" alt="demo.gif" width="30%"  /></p>
-
-
-
 ## Features
 
 ✅ You can use `PopScope` widget;
@@ -25,6 +21,8 @@ Keeping the system's `PopScope` widget, is simpler and more efficient.
 ✅ Support for multiple platforms;
 
 ✅ It is the same as the default sideslip back. Takes effect only when a pop is triggered, otherwise it is cancelled;
+
+<p align=center><img src="https://github.com/boomcx/will_pop_demo/blob/main/demo.gif?raw=true" alt="demo.gif" width="30%"  /></p>
 
 
 ## Usage
